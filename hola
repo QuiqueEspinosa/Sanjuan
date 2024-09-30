@@ -1,0 +1,520 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZD82JWNT4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1ZD82JWNT4');
+    </script>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Uruguay Jesús te ama</title>
+    <meta content="Campaña evangelística del Ministerio de Carlos Annacondia" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="img/corasol-04.svg" rel="icon">
+    <!--link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"-->
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main2.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: QuickStart
+  * Template URL: https://bootstrapmade.com/quickstart-bootstrap-startup-website-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * Implementación: Matías Rodriguez - https://mr.uy
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+</head>
+
+<body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+            <a href="#hero" class="logo d-flex align-items-center me-auto">
+                <img src="img/logo.svg" width="150px" alt="Uruguay, Jesús te ama">
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#hero" class="active"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                    <li><a href="#elevento">La Campaña</a></li>
+                    <li><a href="#sabermas">Acerca de</a></li>
+                    <li><a href="#fest">Young Fest</a></li>
+                    <li><a href="#comollegar">Cómo llegar</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <a class="btn-getstarted" href="#sabermas">Saber más</a>
+
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <div class="hero-bg">
+                <img src="img/wp2.jpeg" alt="">
+            </div>
+            <div class="container text-center">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <h2 data-aos="fade-up" data-aos-delay="100" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white; ">
+                        <b>CAMPAÑA DE CARLOS ANNACONDIA</b>
+                    </h2>
+
+                    <img src="img/logo.svg" width="50%" alt="Uruguay, Jesús te ama" data-aos="fade-up" class="mt-0">
+
+                    <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+                        <a href="video/con_subtitulos.mp4" class="glightbox d-flex align-items-center btn-get-video" 
+                        data-type="video" data-autoplay="true" data-iframe="false">
+                            <i class="bi bi-play-circle" class="btn-watch-video"></i> <div class="m-1"></div>
+                            <span>Ver video otra vez</span>
+                        </a>
+                        <a href="#elevento" class="btn-get-started">
+                            Más información sobre el evento
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section><!-- /Hero Section -->
+
+
+        <section id="featured-services" class="featured-services section light-background">
+
+            <div class="container">
+
+                <div class="row gy-4 d-flex justify-content-center">
+
+                    <div class="col-xl-4 col-lg-6 col-12" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-item d-flex">
+                            <div class="icon flex-shrink-0"><i class="fa fa-map-pin" aria-hidden="true"></i></div>
+                            <div>
+                                <h4 class="description"><a href="#" class="stretched-link">Dónde</a></h4>
+                                <p class="title">
+                                    Monte Beraca, Ruta 8 Km 21, Montevideo, Uruguay
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 col-12" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-item d-flex">
+                            <div class="icon flex-shrink-0"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+                            <div>
+                                <h4 class="description"><a href="#" class="stretched-link">Cuándo</a></h4>
+                                <p class="title">23 al 28 de Setiembre de 2024</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 col-12" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-item d-flex">
+                            <div class="icon flex-shrink-0"><i class="fa fa-clock" aria-hidden="true"></i></div>
+                            <div>
+                                <h4 class="description"><a href="#" class="stretched-link">Horario</a></h4>
+                                <p class="title">A partir de las 18:00 horas</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+
+
+        <section id="elevento" class="about section">
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+                        <p class="who-we-are">Sobre el Evento</p>
+                        <h3>Campaña evangelística del <span>Ministerio de Carlos Annacondia</span></h3>
+                        <ul>
+                            <li><i class="bi bi-check-circle"></i>
+                                <span>
+                                    Comienza el 23 de Setiembre
+                                </span>
+                            </li>
+                            <li><i class="bi bi-check-circle"></i>
+                                <span>
+                                    Finaliza el 28 de Setiembre
+                                </span>
+                            </li>
+                            <li><i class="bi bi-check-circle"></i>
+                                <span>
+                                    Las puertas se abren a las 18:00 horas
+                                </span>
+                            </li>
+                        </ul>
+                        <a href="#comollegar" class="read-more"><span>Cómo llegar</span><i class="bi bi-arrow-right"></i></a>
+                    </div>
+
+                    <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
+                        <div class="row gy-4">
+                            <div class="col-lg-6">
+                                <div class="row gy-4">
+                                    <div class="col-lg-12">
+                                        <img src="IMG/442436351_457050970307228_6969144104242956749_n.jpg"
+                                            class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <img src="img/444191420_457050286973963_1926562819897243574_n.jpg"
+                                            class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="img/443711972_456130987065893_9134302847295258214_n_vertical.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="sabermas" class="features section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Conoce más acerca del Ministerio de Carlos Annacondia</h2>
+                <p>
+                    Historia del Ministerio que visita nuestro país,
+                    y la relevancia espiritual que ha tenido para la Iglesia en Uruguay
+                </p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+                <div class="row justify-content-between">
+
+                    <div class="col-lg-5 d-flex align-items-center">
+
+                        <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+                                    <i class="fas fa-book-open"></i>
+                                    <div>
+                                        <h4 class="d-none d-lg-block">Historia del Ministerio</h4>
+                                        <p>Liderado por el Evangelista Carlos Annacondia desde el año 1981, está abocado a
+                                            proclamar el mensaje de salvación de Jesucristo Señor y Salvador de nuestras
+                                            almas.
+                                        </p>
+                                        
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+                                    <i class="bi bi-patch-check"></i>
+                                    <div>
+                                        <h4 class="d-none d-lg-block">Misión, Visión y Mandato de Dios</h4>
+                                        <p class="mb-1">Su visión es Evangelizar Argentina, América y el Mundo.</p>
+                                        
+                                        <p> Su misión, servir a la Iglesia de Jesucristo a través de las cruzadas evangelísticas</p>
+                                        
+                                        <p>Su mandato es dejar el fruto de las cruzadas, de esfuerzo y trabajo unido en las iglesias para que crezcan en la Fe y el Poder de Dios.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+                                    <i class="fas fa-pray"></i>
+                                    <div>
+                                        <h4 class="d-none d-lg-block">2024: Año de Intercesión y Unidad</h4>
+                                        <p>
+                                            Desde el 12 de abril, la iglesia de Uruguay ha unido sus corazones y voces en un 
+                                            clamor ferviente por la manifestación de Dios. Juntos, como comunidad de fe, 
+                                            estamos buscando un encuentro profundo con lo divino, confiando en que nuestras 
+                                            oraciones serán escuchadas y que la luz de Dios se manifestará en nuestras vidas 
+                                            y en nuestra nación.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+                            <div class="tab-pane fade" id="features-tab-1">
+                                <!--img src="assets/img/tabs-1.jpg" alt="" class="img-fluid"-->
+                            </div><!-- End Tab Content Item -->
+
+                            <div class="tab-pane fade" id="features-tab-2">
+                                <!--img src="assets/img/tabs-2.jpg" alt="" class="img-fluid"-->
+                            </div><!-- End Tab Content Item -->
+
+                            <div class="tab-pane fade active show" id="features-tab-3">
+                                <img src="img/450544006_484474600898198_8674311627294626887_n_sqr.jpg" alt="" class="img-fluid">
+                            </div><!-- End Tab Content Item -->
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="fest" class="features-details section">        
+            <div class="container">
+                <div class="row gy-4 justify-content-between features-item">
+        
+                    <div class="col-lg-6 d-flex align-items-center aos-init aos-animate" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-2"></div>
+                                <div class="col-8"><img src="img/LogoYoungFest.png" alt="Logo Young Fest" class="col-12"></div>
+                            </div>
+                            
+                            <h3>Sáb 28/9 - 16:00 hs.</h3>
+                            <hr>
+
+                            <p>La edición del Young Fest que será parte de esta campaña y no te podés perder.</p>
+
+                            <ul class="ml-3">
+                                <li>FACTOR DE CAMBIO</li>
+                                <li>MINISTERIO MENSAJE DE SALVACIÓN</li>
+                                <li>MISIÓN VIDA</li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <img src="img/PlacaSinTexto.jpg" class="img-fluid" alt="Imagen de Factor de Cambio, Banda Misión Vida y los evangelistas">
+                    </div>
+        
+                </div>      
+            </div>
+        </section>
+
+        
+        <section id="comollegar" class="contact section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Cómo llegar</h2>
+                <p>Toda la información necesaria para llegar en tu vehículo o en transporte público</p>
+            </div>
+
+            
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4 mt-1">
+                    <div id="mapa-nati" class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+                        <div class="info-item d-flex flex-column justify-content-start align-items-center" data-aos="fade-up" data-aos-delay="200">
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                            <div class="rows">
+                                <div class="col-12 services service-item">
+                                    <h3 class="p-2 p-2">Circulación de acceso y estacionamiento</h3>
+                                    <!-- Abrir imagen en otra pestaña -->
+                                    <a href="img/accesos.jpeg" target="_blank">        
+                                        <div class="p-2">
+                                            <img src="img/accesos.jpeg" class="img-fluid rounded" alt="Imagen de accesos al predio">                                                                                        
+                                        </div>                                        
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.3265797901013!2d-56.04735802338579!3d-34.77255296643591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a028928324272f%3A0xd6e837ba64cdf2cd!2sMonte%20Beraca!5e0!3m2!1ses-419!2suy!4v1724956653956!5m2!1ses-419!2suy" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe-->
+                    </div>
+
+                    <div class="col-lg-6">                        
+                        <div class="info-item d-flex flex-column justify-content-start align-items-center" data-aos="fade-up" data-aos-delay="200">
+                            <i class="fa fa-bus" aria-hidden="true"></i>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3>Cómo llegar en Omnibus</h3>
+                                    <h4>Líneas Urbanas</h4>
+                                    <ul>
+                                        <li><span>103</span> Ciudad Vieja - Los Aromos</li>
+                                        <li><span>103</span> Ciudad Vieja - Villa García</li>
+                                    </ul>
+
+                                    <h4>Líneas Interdepartamentales</h4>
+                                    <ul>
+                                        <li><span>D8</span>   Ciudad Vieja - Cno. Maldonado Km. 21</li>
+                                        <li><span>14A</span>  Montevideo - San Jacinto</li>
+                                        <li><span>14AB</span> Montevideo - Pando</li>
+                                        <li><span>14AR</span> Montevideo - Pando</li>
+                                        <li><span>14AR</span> Montevideo - Km 35 Villa Jardines</li>
+                                        <li><span>7A</span>   Montevideo - Pando</li>
+                                        <li><span>7A</span>   Montevideo - Pando por Pancovi</li>
+                                        <li><span>7AD</span>  Montevideo - Pando (Directo)</li>
+                                        <li><span>8A</span>   Montevideo - Soca</li>
+                                        <li><span>10A</span>  Montevideo - Tala</li>
+                                        <li><span>724</span>  Montevideo - Pando</li>
+                                    </ul>        
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="contacto" class="services section light-background">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Información de contacto</h2>
+                <p>Síguenos en redes sociales y activa las notificaciones para que no te pierdas de nada</p>
+            </div>
+
+            <div class="container">
+                <div class="row g-5">
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <a href="https://www.facebook.com/UruguayJesusTeAma2024" target="_blank">
+                            <div class="service-item item-cyan position-relative">
+                                <i class="bi bi-facebook icon"></i>
+                                <div>
+                                    <h3>Facebook</h3>
+                                    <p>UruguayJesusTeAma2024</p>
+                                    <span class="read-more stretched-link">
+                                        Abrir la página de Facebook 
+                                        <i class="bi bi-arrow-right"></i></span>
+                                </div>
+                            </div>    
+                        </a>                        
+                    </div>
+
+                    
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+                        <a href="https://www.instagram.com/uruguayjesusteama2024/" target="_blank">
+                            <div class="service-item item-indigo position-relative">
+                                <i class="bi bi-instagram icon"></i>
+                                <div>
+                                    <h3>Instagram</h3>
+                                    <p>@UruguayJesusTeAma2024</p>
+                                    <span class="read-more stretched-link">
+                                        Ver el perfil de Instagram
+                                        <i class="bi bi-arrow-right"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    
+    </main>
+
+    <footer id="footer" class="footer position-relative light-background">
+
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-6 col-md-6 footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span class="sitename">Uruguay Jesús de ama</span>
+                    </a>
+                    <div class="footer-contact pt-3">
+                        <p>Ruta 8 Km 21 - Villa García</p>
+                        <p>Montevideo, Uruguay</p>
+                    </div>
+                    <div class="social-links d-flex mt-4">
+                        <a href="https://www.facebook.com/UruguayJesusTeAma2024" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/uruguayjesusteama2024/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 footer-links">
+                    <h4>Contenido</h4>
+                    <ul>
+                        <li><a href="#hero">Inicio</a></li>
+                        <li><a href="#elevento">El Evento</a></li>
+                        <li><a href="#sabermas">Acerca de</a></li>
+                        <li><a href="#comollegar">Cómo llegar</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-3 footer-links">
+                    <h4>Información de Interés</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/UruguayJesusTeAma2024" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/uruguayjesusteama2024/" target="_blank">Instagram</a></li>
+                        <li><a href="#comollegar">Ubicación</a></li>
+                        <li><a href="#mapa-nati">Entradas y Estacionamiento</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>
+                <strong class="px-1 sitename">Uruguay Jesús te ama</strong> 
+                © <span>Campaña de Carlos Annacondia</span>
+            </p>
+            <div class="credits">
+                <!-- https://mr.uy -->
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
