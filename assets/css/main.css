@@ -12,9 +12,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Poppins", system-ui, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Nunito", sans-serif; /* Si deseas mantener Nunito */
-  --nav-font: "Inter", sans-serif; /* Si deseas mantener Inter */
+  --default-font: "Poppins", system-ui, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  --heading-font: "Poppins", sans-serif; /* Cambia esto si quieres Poppins para los encabezados */
+  --nav-font: "Poppins", sans-serif; /* Cambia esto si quieres Poppins para la navegación */
 }
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
