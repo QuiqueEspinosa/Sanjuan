@@ -71,16 +71,16 @@
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 28px;
-  margin-right: 16px;
+ 
   border-radius: 50px;
   transition: 0.5s;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
-  
+
 }
 .hero .btn-get-video:hover {
   color: var(--dark-color);
   background: 
-color-mix(in srgb, var(--amarillo-color), transparent 15%);
+  color-mix(in srgb, var(--amarillo-color), transparent 15%);
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
    }
 
@@ -989,6 +989,13 @@ section,
   font-weight: 400;
 }
 
+/* Estilos para el subtítulo debajo del logo */
+.subtitulo-hero {
+  color: white;
+  font-size: 20px !important;
+
+  text-align: center;
+}
 @media (min-width: 768px) {
   .hero .hero-img {
     max-width: 600px;
@@ -1039,7 +1046,20 @@ section,
   color: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
 
+.hero .d-flex  {
+  margin-top: 3% !important; /* Puedes ajustar el valor de acuerdo a lo que necesites */
+}
+.hero .btn-get-started{
+  margin-top: 3% !important;
+}
+
 @media (max-width: 640px) {
+  .hero-logo {
+    width: 70%; /* Cambia este valor para ajustar el ancho */
+    max-width: 600px; /* Establece un ancho máximo si es necesario */
+    margin-top: 20px; /* Espacio superior para separarlo del título */
+    margin-bottom: 20px; /* Espacio inferior para separarlo del párrafo */
+  }
   .hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -1054,6 +1074,15 @@ section,
   .hero .btn-get-started,
   .hero .btn-watch-video {
     font-size: 13px;
+  }
+  .hero .d-flex  {
+    margin-top: 13% !important; /* Puedes ajustar el valor de acuerdo a lo que necesites */
+  }
+  .hero .btn-get-started{
+    margin-top: 13% !important;
+  }
+  .subtitulo-her{
+    margin-top: 10%;
   }
 }
 
@@ -2043,3 +2072,4 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
